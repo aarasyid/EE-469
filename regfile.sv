@@ -1,13 +1,13 @@
 // Ahmad Rasyid
 // EE/CSE 469
 // Lab 1: ARM 64 bit Register File
-
+// This is commenting section area test
 
 module regfile (ReadData1, ReadData2, WriteData, ReadRegister1, ReadRegister2, WriteRegister, RegWrite, clk);
 	input logic	[4:0] 	ReadRegister1, ReadRegister2, WriteRegister;
 	input logic [63:0]	WriteData;
 	input logic 			RegWrite, clk;
-	output logic [63:0]	ReadData1, ReadData2;
+	output logic [63:0]	ReadData1, ReadData1;
 	logic [31:0] outDecoder;
 	logic [63:0][31:0] outRegister;
 	
